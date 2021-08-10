@@ -1,11 +1,11 @@
 const chalk = require("chalk");
 
 function yellow() {
-    console.log(chalk.yellow("blue"));
+    console.log(chalk.yellow("yellow"));
 }
 
 function green() {
-    console.log(chalk.green("blue"));
+    console.log(chalk.green("green"));
 }
 
 module.exports = { yellow, green };
